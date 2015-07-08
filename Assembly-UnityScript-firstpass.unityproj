@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D673CA6C-31EB-DAF6-13EA-CD1022E9D88E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_2;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/work/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/work/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <None Include="Assets\UI\SDF\Shaders\SDFSoftShadow.shader" />
+     <None Include="Assets\shaders\Toony-Basic.shader" />
+     <None Include="Assets\UI\DefaultResourcesExtra\uGUI\GUI-Lit-RefractionDetail(ProOnly).shader" />
+     <None Include="Assets\UI\DefaultResourcesExtra\uGUI\GUI-Lit-Detail.shader" />
+     <None Include="Assets\UI\DefaultResourcesExtra\uGUI\GUI-DefaultFont.shader" />
+     <None Include="Assets\UI\UI\Examples\Misc\Triplanar - Bumped Diffuse.shader" />
+     <None Include="Assets\shaders\TwoPass.shader" />
+     <None Include="Assets\shaders\BasicDiffuse.shader" />
+     <None Include="Assets\UI\DefaultResourcesExtra\uGUI\GUI-Unlit-Detail.shader" />
+     <None Include="Assets\UI\SDF\Shaders\SDFOutlineShadow.shader" />
+     <None Include="Assets\shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\UI\SDF\Shaders\SDFOutline.shader" />
+     <None Include="Assets\shaders\double.shader" />
+     <None Include="Assets\UI\DefaultResourcesExtra\uGUI\GUI-Lit-Refraction(ProOnly).shader" />
+     <None Include="Assets\shaders\ToonTerrain.shader" />
+     <None Include="Assets\shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\UI\DefaultResourcesExtra\uGUI\GUI-Unlit-TextDetail.shader" />
+     <None Include="Assets\shaders\Toony-Lighted.shader" />
+     <None Include="Assets\shaders\Toony-LightedOutline-Transparent.shader" />
+     <None Include="Assets\material\Bn.shader" />
+     <None Include="Assets\UI\DefaultResourcesExtra\uGUI\GUI-Unlit-Text.shader" />
+     <None Include="Assets\my.xml" />
+     <None Include="Assets\UI\DefaultResourcesExtra\uGUI\GUI-Lit-Transparent.shader" />
+     <None Include="Assets\UI\UI\Examples\Misc\Triplanar - Diffuse.shader" />
+     <None Include="Assets\UI\SDF\Shaders\SDFSolid.shader" />
+     <None Include="Assets\UI\DefaultResourcesExtra\uGUI\GUI-Lit-Bumped.shader" />
+     <None Include="Assets\MeshBaker\docs\README.txt" />
+     <None Include="Assets\shaders\Toony-BasicOutline-Transparent.shader" />
+     <None Include="Assets\UI\SDF\Shaders\SDF.cginc" />
+     <None Include="Assets\UI\SDF\Shaders\SDFOutlineSoftShadow.shader" />
+     <None Include="Assets\shaders\Toony-Lighted-Transparent.shader" />
+     <None Include="Assets\UI\SDF\Fonts\ArialSDF.fnt" />
+     <None Include="Assets\UI\DefaultResourcesExtra\uGUI\GUI-Unlit-Transparent.shader" />
+     <None Include="Assets\UI\SDF\Shaders\SDFShadow.shader" />
+     <None Include="Assets\UI\DefaultResourcesExtra\uGUI\GUI-Default.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/work/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>E:/work/AI_new/Assets/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>E:/work/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
